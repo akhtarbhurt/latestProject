@@ -1,0 +1,35 @@
+body{
+    background-color: #f1f1f1;
+    text-transform: capitalize;
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.section-2{
+    min-height: 10vh;
+    position: relative;
+}
+ h3{
+    font-size: 20px;
+ }
+
+.container{
+    display: none;
+}
+.loader{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+.fixed{
+    position: fixed;
+    top: 2%;
+}

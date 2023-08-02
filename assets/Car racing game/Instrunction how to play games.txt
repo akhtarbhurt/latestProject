@@ -1,0 +1,1 @@
+Use left arrow key of keyboard to move the user car

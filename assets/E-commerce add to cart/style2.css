@@ -1,0 +1,127 @@
+.bg{
+    background-image: linear-gradient(135deg,#fff5cb 0%,#b6e3d4 50%,#33a7b5 100%);;
+}
+.hero-content{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+.hero-content h1{
+    font-size: 70px;
+    font-weight: 600;
+    color: darkgreen;
+}
+.hero-content p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+}
+.hero-content button{
+    font-size: 18px;
+    font-weight: 400;
+    background-color: darkgreen;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+.hero-content button:hover{
+    background-color: white;
+    color: #333;
+    transition: all 0.3s linear;
+}
+.cart-card{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.cart-card .cart-content .cart-group{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.cart-card .cart-content .cart-group .input-group{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    z-index: 1;
+}
+.cart-card .cart-content .cart-group .input-group input{
+    width: 50px;
+    text-align: center;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    z-index: 1;
+
+}
+.cart-card .cart-content .cart-group p{
+    font-size: 12px;
+    color: lightslategray;
+    font-weight: 900;
+    word-wrap: break-word;
+}
+.cart-card .cart-content .cart-group .input-group button{
+    width: 20px;
+    border: none;
+    background-color: #f1f1f1;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.cart-card .cart{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: darkgreen;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+}
+
+
+
+table tbody tr {
+    position: relative;
+}
+
+table tbody .delete{
+    position: absolute;
+    right: 0;
+    top: 35%;
+    margin-right: 20px;
+    background-color: darkgreen;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3%;
+    border: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.para{
+    text-decoration: line-through;
+}
+.checkbox{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.green{
+    background-color: darkgreen;
+}
